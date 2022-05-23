@@ -1,0 +1,14 @@
+.partners {
+    padding: 70px;
+    min-height: 500px;
+    background-color: #7BACC9;
+    color: #fff;
+    &__list {
+        margin-top: 50px;
+    }
+    &__item {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 36px;
+    }
+}
