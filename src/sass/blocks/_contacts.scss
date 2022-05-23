@@ -20,7 +20,7 @@
     .tel::before, .email::before, .address::before {
         content: '';
         position: absolute;
-        background-image: url('../../icons/phone.png');
+        background-image: url('../icons/phone.png');
         width: 24px;
         height: 24px;
         left: -40px;
@@ -28,9 +28,9 @@
         transform: translateY(-50%);
     }
     .email::before {
-        background-image: url('../../icons/email.png');
+        background-image: url('../icons/email.png');
     }
     .address::before {
-        background-image: url('../../icons/place.png');
+        background-image: url('../icons/place.png');
     }
 }
