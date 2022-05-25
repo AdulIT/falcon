@@ -24,6 +24,11 @@
         background: inherit;
         outline: none;
         border: 2px solid #fff;
+        transition: .5s all;
+        &:hover {
+            background-color: #6FA2C1;
+            border: none;
+        }
         a {
             color: #fff;
         }
