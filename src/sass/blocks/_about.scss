@@ -6,6 +6,13 @@
         font-size: 21px;
         line-height: 30px;
     }
+    &__list {
+        li {
+            font-size: 18px;
+            line-height: 36px;
+            font-style: italic;
+        }
+    }
     &__wrapper {
         display: flex;
         justify-content: center;

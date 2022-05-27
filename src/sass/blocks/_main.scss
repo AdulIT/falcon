@@ -1,13 +1,13 @@
 .main {
     min-height: calc(100vh - 80px);
     padding: 160px 0 70px 0;
-    background: url('../img/bg-v04.jpg') center center/cover no-repeat;
+    background: url('../img/bg-01.jpg') center center/cover no-repeat;
     color: #fff;
     text-align: right;
     &__wrapper {
         display: flex;
         flex-direction: column;
-        align-items: end;
+        align-items: flex-end;
     }
     &__descr {
         width: 400px;
@@ -24,10 +24,9 @@
         background: inherit;
         outline: none;
         border: 2px solid #fff;
-        transition: .5s all;
+        transition: .6s all;
         &:hover {
-            background-color: #6FA2C1;
-            border: none;
+            border-color: #fff;
         }
         a {
             color: #fff;
