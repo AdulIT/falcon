@@ -23,13 +23,17 @@
         font-size: 18px;
         background: inherit;
         outline: none;
-        border: 2px solid #fff;
+        border: 3px solid #fff;
         transition: .6s all;
         &:hover {
-            border-color: #fff;
+            border-color: #4255A0;
         }
         a {
             color: #fff;
+            transition: .6s all;
+            &:hover {
+                color: #4255A0;
+            }
         }
     }
 }

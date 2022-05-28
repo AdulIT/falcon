@@ -17,5 +17,9 @@
     }
     &-menu__link {
         font-size: 18px;
+        font-weight: 500;
+        &:hover {
+            color: #323172;
+        }
     }
 }

@@ -6,8 +6,14 @@
         font-size: 18px;
         line-height: 30px;
     }
+    #magnify {
+        max-width: 400px;
+    }
 }
 @media (max-width: 991px) {
+    .menu .logo {
+        height: 47px;
+    }
     .menu__list, .footer-menu__list {
         width: 500px;
     }
@@ -19,6 +25,9 @@
     }
     .about__wrapper {
         align-items: start;
+    }
+    .about .col-md-6 {
+        width: 100%;
     }
 }
 @media (max-width: 767px) {
@@ -59,7 +68,7 @@
             display: block;
             height: 3px;
             width: 100%;
-            background-color: #000;
+            background-color: #323172;
             margin-bottom: 3px;
             transition: .5s all;
         }
@@ -119,6 +128,9 @@
     }
     h3.title {
         font-size: 24px;
+    }
+    .about__wrapper {
+        grid-template-columns: 1fr;
     }
     .main__descr {
         width: 280px;
